@@ -1,0 +1,452 @@
+{
+  "package": "project-pusher-sanitized-20260914.zip",
+  "created_date": "2026-09-14",
+  "included_file_count": 68,
+  "excluded_file_count": 7500,
+  "sanitization": [
+    "Excluded live runtime state (data/state.json), all captured image assets, local CLI caches, environment files, Git metadata, dependencies, and nested archives.",
+    "Replaced local user/workspace paths, internal business domains, employee email addresses, credential-like values, and experiment/metric/document/project identifiers in copied text files.",
+    "Retained runnable source code, generic documentation, schemas, and a value-scrubbed example state; excluded tests and the private handover instruction."
+  ],
+  "excluded_categories": {
+    "live_state_and_assets": "data/state.json and data/assets/**",
+    "local_credentials_and_caches": ".env, .libra-cli, .lark-cli, .feishu-cli, .venv-libra-cli",
+    "development_metadata": ".git, node_modules, .codex, .agents",
+    "nested_archives_and_binaries": "omitted to avoid embedded unreviewed content",
+    "private_handover_and_tests": "instruction.md, 产品方案.md, and test/**"
+  },
+  "included_examples": [
+    ".env.example",
+    ".gitignore",
+    "README.md",
+    "agent-runtime.js",
+    "app.js",
+    "automation-engine.js",
+    "data/state.example.json",
+    "docs/README.md",
+    "docs/artifact_instruction.md",
+    "docs/design_instruction.md",
+    "docs/memory_instruction.md",
+    "docs/plan_instruction.md",
+    "docs/skills_instruction.md",
+    "docs/systemprompt_instruction.md",
+    "docs/tool_instruction.md",
+    "index.html",
+    "model-request-mock.css",
+    "model-request-mock.html",
+    "model-request-mock.js",
+    "package.json",
+    "server.js",
+    "skill-library.js",
+    "skills/lark-doc飞书文档/SKILL.md",
+    "skills/lark-doc飞书文档/references/genres/business-analysis.md",
+    "skills/lark-doc飞书文档/references/genres/data-report.md",
+    "skills/lark-doc飞书文档/references/genres/email.md",
+    "skills/lark-doc飞书文档/references/genres/execution-plan.md",
+    "skills/lark-doc飞书文档/references/genres/formal-doc.md",
+    "skills/lark-doc飞书文档/references/genres/meeting-minutes.md",
+    "skills/lark-doc飞书文档/references/genres/memo-brief.md"
+  ],
+  "excluded_examples": [
+    {
+      "path": "产品方案.md",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".DS_Store",
+      "reason": "local state, credential, or OS metadata"
+    },
+    {
+      "path": "instruction.md",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".env",
+      "reason": "local state, credential, or OS metadata"
+    },
+    {
+      "path": "project-pusher-sanitized-20260914.zip",
+      "reason": "nested archive omitted from sanitized export"
+    },
+    {
+      "path": "test/server-state-write.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-client-state-sync.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-feishu-tools.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-artifacts.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-automation-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-cli-harness.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-chat-display.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-partial-delivery.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-agent-knowledge-recovery.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-cli-skills.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-realtime-progress-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-compact-tool-results.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-concurrent-runs-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-web-page-reader.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-agent-loop-audit.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-model-routing.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-context-budget.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-manual-rerun.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-tool-guidance.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-model-request-mock-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-context-compaction-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-final-reply.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-terminal-delivery.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/automation-engine.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-project-overview.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-conversation-memory.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-versioned-metrics.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-automation.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-model-request-mock.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-conversation-threads.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-content-scope.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-agent-progress.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-history-tool-flow.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-manual-rerun-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-model-request-real-e2e.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/app-chat-image-submission.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-manual-rerun.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-long-term-memory.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/skill-library.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/server-model-runtime.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": "test/agent-runtime.test.js",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/pyvenv.cfg",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/Activate.ps1",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/python3",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/python",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/pip3",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/activate.fish",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/idna",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/python3.11",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/pip",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/httpx",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/pip3.11",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/activate",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/normalizer",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/libra-cli",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/bin/activate.csh",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/ipaddress.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/ujson.cpython-311-darwin.so",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/protobuf-3.20.3-nspkg.pth",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/distutils-precedence.pth",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/six.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/typing_extensions.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/algorithms.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/api_jwt.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/warnings.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__init__.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/types.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/jwk_set_cache.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/utils.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/py.typed",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/exceptions.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/api_jwk.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/jwks_client.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/api_jws.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/help.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/jwk_set_cache.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/jwks_client.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/api_jwt.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/api_jws.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/utils.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/warnings.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/help.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/exceptions.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/types.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/api_jwk.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/algorithms.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/jwt/__pycache__/__init__.cpython-311.pyc",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/tags.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/_musllinux.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/dependency_groups.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/metadata.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/version.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/direct_url.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/pylock.py",
+      "reason": "local runtime/cache or source images"
+    },
+    {
+      "path": ".venv-libra-cli/lib/python3.11/site-packages/packaging/__init__.py",
+      "reason": "local runtime/cache or source images"
+    }
+  ]
+}

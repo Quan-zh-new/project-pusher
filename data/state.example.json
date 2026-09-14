@@ -1,0 +1,2617 @@
+{
+  "version": 0,
+  "updatedAt": "[已脱敏updatedAt]",
+  "state": {
+    "selectedProjectId": "[已脱敏selectedProjectId]",
+    "knowledgeFilter": {
+      "projectId": "[已脱敏projectId]",
+      "query": "[已脱敏query]",
+      "type": "[已脱敏type]"
+    },
+    "projects": [
+      {
+        "id": "[已脱敏id]",
+        "priority": "[已脱敏priority]",
+        "name": "[已脱敏name]",
+        "plannedEnd": "[已脱敏plannedEnd]",
+        "progress": "[已脱敏progress]",
+        "currentState": "[已脱敏currentState]",
+        "blocker": "[已脱敏blocker]",
+        "nextAction": "[已脱敏nextAction]",
+        "nextActionDdl": "[已脱敏nextActionDdl]",
+        "learning": "[已脱敏learning]",
+        "teams": [],
+        "knowledgeLinks": [
+          {
+            "id": "[已脱敏id]",
+            "url": "[已脱敏url]"
+          }
+        ],
+        "currentStateImages": [],
+        "learningImages": [],
+        "initiatives": [],
+        "memory": [
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [
+                {
+                  "id": "[已脱敏id]",
+                  "status": "[已脱敏status]",
+                  "projectId": "[已脱敏projectId]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "target": "[已脱敏target]",
+                  "field": "[已脱敏field]",
+                  "value": "[已脱敏value]",
+                  "title": "[已脱敏title]",
+                  "rationale": "[已脱敏rationale]",
+                  "createdAt": "[已脱敏createdAt]"
+                }
+              ],
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "priority": "[已脱敏priority]",
+        "name": "[已脱敏name]",
+        "plannedEnd": "[已脱敏plannedEnd]",
+        "progress": "[已脱敏progress]",
+        "currentState": "[已脱敏currentState]",
+        "blocker": "[已脱敏blocker]",
+        "nextAction": "[已脱敏nextAction]",
+        "nextActionDdl": "[已脱敏nextActionDdl]",
+        "learning": "[已脱敏learning]",
+        "teams": [
+          "[已脱敏teams]",
+          "[已脱敏teams]",
+          "[已脱敏teams]",
+          "[已脱敏teams]"
+        ],
+        "initiatives": [
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": false,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              },
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": false,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": false,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": false,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": true,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              },
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": true,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          },
+          {
+            "id": "[已脱敏id]",
+            "priority": "[已脱敏priority]",
+            "name": "[已脱敏name]",
+            "currentState": "[已脱敏currentState]",
+            "blocker": "[已脱敏blocker]",
+            "nextAction": "[已脱敏nextAction]",
+            "nextActionDdl": "[已脱敏nextActionDdl]",
+            "learning": "[已脱敏learning]",
+            "teams": [
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]",
+              "[已脱敏teams]"
+            ],
+            "progress": "[已脱敏progress]",
+            "plannedEnd": "[已脱敏plannedEnd]",
+            "actionDone": false,
+            "archived": true,
+            "knowledgeLinks": [
+              {
+                "id": "[已脱敏id]",
+                "url": "[已脱敏url]"
+              }
+            ],
+            "currentStateImages": [],
+            "learningImages": []
+          }
+        ],
+        "memory": [
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [],
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [
+                {
+                  "id": "[已脱敏id]",
+                  "status": "[已脱敏status]",
+                  "projectId": "[已脱敏projectId]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "target": "[已脱敏target]",
+                  "field": "[已脱敏field]",
+                  "value": "[已脱敏value]",
+                  "title": "[已脱敏title]",
+                  "rationale": "[已脱敏rationale]",
+                  "createdAt": "[已脱敏createdAt]"
+                }
+              ],
+              "memoryCandidates": [],
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "dataLatestDate": "[已脱敏dataLatestDate]",
+                  "isLatest": true,
+                  "note": "[已脱敏note]"
+                }
+              ],
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "dataLatestDate": "[已脱敏dataLatestDate]",
+                  "isLatest": true,
+                  "note": "[已脱敏note]"
+                }
+              ],
+              "recoveryProfile": null,
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "dataLatestDate": "[已脱敏dataLatestDate]",
+                  "isLatest": true,
+                  "note": "[已脱敏note]"
+                }
+              ],
+              "recoveryProfile": null,
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]",
+                "[已脱敏confirmations]"
+              ],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "error": "[已脱敏error]"
+                }
+              ],
+              "recoveryProfile": null,
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [],
+              "recoveryProfile": {
+                "projectId": "[已脱敏projectId]",
+                "metricGroups": [
+                  {
+                    "name": "[已脱敏name]",
+                    "metrics": [
+                      "[已脱敏metrics]",
+                      "[已脱敏metrics]"
+                    ]
+                  }
+                ],
+                "defaultSegments": "[已脱敏defaultSegments]",
+                "source": "[已脱敏source]"
+              },
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [],
+              "proposals": [],
+              "memoryCandidates": [
+                {
+                  "id": "[已脱敏id]",
+                  "projectId": "[已脱敏projectId]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "type": "[已脱敏type]",
+                  "statement": "[已脱敏statement]",
+                  "confidence": "[已脱敏confidence]",
+                  "evidence": "[已脱敏evidence]",
+                  "source": "[已脱敏source]"
+                }
+              ],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "note": "[已脱敏note]"
+                }
+              ],
+              "recoveryProfile": {
+                "projectId": "[已脱敏projectId]",
+                "metricGroups": [
+                  {
+                    "name": "[已脱敏name]",
+                    "metrics": [
+                      "[已脱敏metrics]",
+                      "[已脱敏metrics]"
+                    ]
+                  }
+                ],
+                "defaultSegments": "[已脱敏defaultSegments]",
+                "source": "[已脱敏source]"
+              },
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "note": "[已脱敏note]"
+                }
+              ],
+              "recoveryProfile": {
+                "projectId": "[已脱敏projectId]",
+                "metricGroups": [
+                  {
+                    "name": "[已脱敏name]",
+                    "metrics": [
+                      "[已脱敏metrics]",
+                      "[已脱敏metrics]"
+                    ]
+                  }
+                ],
+                "defaultSegments": "[已脱敏defaultSegments]",
+                "source": "[已脱敏source]"
+              },
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]",
+                "[已脱敏facts]"
+              ],
+              "assessments": [
+                "[已脱敏assessments]",
+                "[已脱敏assessments]",
+                "[已脱敏assessments]"
+              ],
+              "actions": [
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                },
+                {
+                  "action": "[已脱敏action]",
+                  "ddl": "[已脱敏ddl]",
+                  "impact": "[已脱敏impact]"
+                }
+              ],
+              "confirmations": [],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "note": "[已脱敏note]"
+                },
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "error": "[已脱敏error]"
+                }
+              ],
+              "recoveryProfile": {
+                "projectId": "[已脱敏projectId]",
+                "metricGroups": [
+                  {
+                    "name": "[已脱敏name]",
+                    "metrics": [
+                      "[已脱敏metrics]",
+                      "[已脱敏metrics]"
+                    ]
+                  }
+                ],
+                "defaultSegments": "[已脱敏defaultSegments]",
+                "source": "[已脱敏source]"
+              },
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]"
+          },
+          {
+            "role": "[已脱敏role]",
+            "text": "[已脱敏text]",
+            "html": "[已脱敏html]",
+            "structured": {
+              "facts": [],
+              "assessments": [],
+              "actions": [],
+              "confirmations": [],
+              "proposals": [],
+              "memoryCandidates": [],
+              "toolCalls": [
+                {
+                  "name": "[已脱敏name]",
+                  "experimentId": "[已脱敏experimentId]",
+                  "experimentUrl": "[已脱敏experimentUrl]",
+                  "initiativeId": "[已脱敏initiativeId]",
+                  "title": "[已脱敏title]"
+                }
+              ],
+              "toolResults": [
+                {
+                  "name": "[已脱敏name]",
+                  "status": "[已脱敏status]",
+                  "title": "[已脱敏title]",
+                  "dataLatestDate": "[已脱敏dataLatestDate]",
+                  "isLatest": false,
+                  "note": "[已脱敏note]",
+                  "metrics": [
+                    {
+                      "group": "[已脱敏group]",
+                      "metric": "[已脱敏metric]",
+                      "found": true,
+                      "result": "[已脱敏result]"
+                    },
+                    {
+                      "group": "[已脱敏group]",
+                      "metric": "[已脱敏metric]",
+                      "found": true,
+                      "result": "[已脱敏result]"
+                    }
+                  ],
+                  "knowledgeTitle": "[已脱敏knowledgeTitle]"
+                }
+              ],
+              "recoveryProfile": null,
+              "fallbackText": "[已脱敏fallbackText]"
+            },
+            "model": "[已脱敏model]",
+            "requestId": null
+          }
+        ],
+        "knowledgeLinks": [
+          {
+            "id": "[已脱敏id]",
+            "url": "[已脱敏url]"
+          }
+        ],
+        "currentStateImages": [],
+        "learningImages": []
+      }
+    ],
+    "knowledgeItems": [
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": false,
+        "sourceType": "[已脱敏sourceType]",
+        "recoveryReportId": "[已脱敏recoveryReportId]"
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": false,
+        "sourceType": "[已脱敏sourceType]",
+        "recoveryReportId": "[已脱敏recoveryReportId]"
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "createdAt": "[已脱敏createdAt]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]",
+        "autoLinked": true,
+        "linkKey": "[已脱敏linkKey]",
+        "parsedTheme": "[已脱敏parsedTheme]",
+        "syncStatus": "[已脱敏syncStatus]",
+        "syncedAt": "[已脱敏syncedAt]",
+        "summaryVersion": 0
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "title": "[已脱敏title]",
+        "summary": "[已脱敏summary]",
+        "sourceUrl": "[已脱敏sourceUrl]",
+        "content": "[已脱敏content]",
+        "createdAt": "[已脱敏createdAt]"
+      }
+    ],
+    "aiCollapsed": false,
+    "sidebarCollapsed": false,
+    "expandedArchivedProjectIds": [
+      "[已脱敏expandedArchivedProjectIds]"
+    ],
+    "selectedInitiativeId": "[已脱敏selectedInitiativeId]",
+    "proposals": [
+      {
+        "id": "[已脱敏id]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "target": "[已脱敏target]",
+        "field": "[已脱敏field]",
+        "value": "[已脱敏value]",
+        "title": "[已脱敏title]",
+        "rationale": "[已脱敏rationale]",
+        "createdAt": "[已脱敏createdAt]",
+        "submittedAt": "[已脱敏submittedAt]"
+      }
+    ],
+    "agentRuns": [
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ],
+        "toolCalls": [
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "status": "[已脱敏status]",
+            "input": "[已脱敏input]",
+            "output": "[已脱敏output]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "prompts": {
+          "context": "[已脱敏context]",
+          "systemPrompt": "[已脱敏systemPrompt]",
+          "userPrompt": "[已脱敏userPrompt]",
+          "assistantPrompt": "[已脱敏assistantPrompt]"
+        },
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      },
+      {
+        "id": "[已脱敏id]",
+        "type": "[已脱敏type]",
+        "status": "[已脱敏status]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "messagePreview": "[已脱敏messagePreview]",
+        "startedAt": "[已脱敏startedAt]",
+        "completedAt": "[已脱敏completedAt]",
+        "durationMs": 0,
+        "model": "[已脱敏model]",
+        "requestId": "[已脱敏requestId]",
+        "outputFormat": "[已脱敏outputFormat]",
+        "error": "[已脱敏error]",
+        "steps": [
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          },
+          {
+            "name": "[已脱敏name]",
+            "label": "[已脱敏label]",
+            "status": "[已脱敏status]"
+          }
+        ]
+      }
+    ],
+    "agentRunFilter": {
+      "projectId": "[已脱敏projectId]",
+      "status": "[已脱敏status]"
+    },
+    "projectMemories": [
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "statement": "[已脱敏statement]",
+        "confidence": "[已脱敏confidence]",
+        "evidence": "[已脱敏evidence]",
+        "source": "[已脱敏source]",
+        "status": "[已脱敏status]",
+        "version": 0,
+        "supersedes": "[已脱敏supersedes]",
+        "supersededBy": "[已脱敏supersededBy]",
+        "createdAt": "[已脱敏createdAt]",
+        "updatedAt": "[已脱敏updatedAt]"
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "statement": "[已脱敏statement]",
+        "confidence": "[已脱敏confidence]",
+        "evidence": "[已脱敏evidence]",
+        "source": "[已脱敏source]",
+        "status": "[已脱敏status]",
+        "version": 0,
+        "supersedes": "[已脱敏supersedes]",
+        "supersededBy": "[已脱敏supersededBy]",
+        "createdAt": "[已脱敏createdAt]",
+        "updatedAt": "[已脱敏updatedAt]"
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "type": "[已脱敏type]",
+        "statement": "[已脱敏statement]",
+        "confidence": "[已脱敏confidence]",
+        "evidence": "[已脱敏evidence]",
+        "source": "[已脱敏source]",
+        "status": "[已脱敏status]",
+        "version": 0,
+        "supersedes": "[已脱敏supersedes]",
+        "supersededBy": "[已脱敏supersededBy]",
+        "createdAt": "[已脱敏createdAt]",
+        "updatedAt": "[已脱敏updatedAt]"
+      }
+    ],
+    "memoryFilter": {
+      "projectId": "[已脱敏projectId]",
+      "status": "[已脱敏status]"
+    },
+    "dataRecoveryProfiles": [
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "metricGroups": [
+          {
+            "name": "[已脱敏name]",
+            "metrics": [
+              "[已脱敏metrics]",
+              "[已脱敏metrics]"
+            ]
+          }
+        ],
+        "defaultSegments": "[已脱敏defaultSegments]",
+        "source": "[已脱敏source]",
+        "status": "[已脱敏status]",
+        "version": 0,
+        "queryDateRule": "[已脱敏queryDateRule]",
+        "feishuDocUrl": "[已脱敏feishuDocUrl]",
+        "createdAt": "[已脱敏createdAt]",
+        "updatedAt": "[已脱敏updatedAt]"
+      },
+      {
+        "id": "[已脱敏id]",
+        "projectId": "[已脱敏projectId]",
+        "status": "[已脱敏status]",
+        "version": 0,
+        "metricGroups": [
+          "[已脱敏metricGroups]",
+          "[已脱敏metricGroups]",
+          "[已脱敏metricGroups]",
+          "[已脱敏metricGroups]"
+        ],
+        "defaultSegments": "[已脱敏defaultSegments]",
+        "decisionRules": "[已脱敏decisionRules]",
+        "source": "[已脱敏source]",
+        "createdAt": "[已脱敏createdAt]",
+        "updatedAt": "[已脱敏updatedAt]",
+        "feishuDocUrl": "[已脱敏feishuDocUrl]",
+        "invalidReason": "[已脱敏invalidReason]"
+      }
+    ],
+    "dataRecoveryReports": [
+      {
+        "id": "[已脱敏id]",
+        "experimentId": "[已脱敏experimentId]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "title": "[已脱敏title]",
+        "status": "[已脱敏status]",
+        "dataLatestDate": "[已脱敏dataLatestDate]",
+        "isLatest": false,
+        "fetchedAt": "[已脱敏fetchedAt]",
+        "experiment": {
+          "status": "[已脱敏status]",
+          "app": "[已脱敏app]",
+          "traffic": "[已脱敏traffic]",
+          "analysisRange": "[已脱敏analysisRange]"
+        },
+        "metricResults": [
+          {
+            "group": "[已脱敏group]",
+            "metric": "[已脱敏metric]",
+            "found": true,
+            "result": "[已脱敏result]"
+          },
+          {
+            "group": "[已脱敏group]",
+            "metric": "[已脱敏metric]",
+            "found": true,
+            "result": "[已脱敏result]"
+          }
+        ],
+        "recycleExcerpt": "[已脱敏recycleExcerpt]",
+        "recycleTruncated": false,
+        "reportDataExcerpt": "[已脱敏reportDataExcerpt]",
+        "note": "[已脱敏note]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "profileId": "[已脱敏profileId]",
+        "feishuSync": {
+          "status": "[已脱敏status]",
+          "url": "[已脱敏url]"
+        }
+      },
+      {
+        "id": "[已脱敏id]",
+        "experimentId": "[已脱敏experimentId]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "title": "[已脱敏title]",
+        "status": "[已脱敏status]",
+        "dataLatestDate": "[已脱敏dataLatestDate]",
+        "isLatest": false,
+        "fetchedAt": "[已脱敏fetchedAt]",
+        "experiment": {
+          "status": "[已脱敏status]",
+          "app": "[已脱敏app]",
+          "traffic": "[已脱敏traffic]",
+          "analysisRange": "[已脱敏analysisRange]"
+        },
+        "metricResults": [
+          {
+            "group": "[已脱敏group]",
+            "metric": "[已脱敏metric]",
+            "found": true,
+            "result": "[已脱敏result]"
+          },
+          {
+            "group": "[已脱敏group]",
+            "metric": "[已脱敏metric]",
+            "found": true,
+            "result": "[已脱敏result]"
+          }
+        ],
+        "recycleExcerpt": "[已脱敏recycleExcerpt]",
+        "recycleTruncated": false,
+        "reportDataExcerpt": "[已脱敏reportDataExcerpt]",
+        "note": "[已脱敏note]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "profileId": "[已脱敏profileId]",
+        "feishuSync": {
+          "status": "[已脱敏status]",
+          "url": "[已脱敏url]"
+        }
+      },
+      {
+        "id": "[已脱敏id]",
+        "experimentId": "[已脱敏experimentId]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "title": "[已脱敏title]",
+        "status": "[已脱敏status]",
+        "dataLatestDate": "[已脱敏dataLatestDate]",
+        "isLatest": true,
+        "fetchedAt": "[已脱敏fetchedAt]",
+        "experiment": {
+          "status": "[已脱敏status]",
+          "app": "[已脱敏app]",
+          "traffic": "[已脱敏traffic]",
+          "analysisRange": "[已脱敏analysisRange]"
+        },
+        "recycleExcerpt": "[已脱敏recycleExcerpt]",
+        "recycleTruncated": false,
+        "note": "[已脱敏note]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "profileId": "[已脱敏profileId]",
+        "feishuSync": {
+          "status": "[已脱敏status]",
+          "url": "[已脱敏url]"
+        }
+      },
+      {
+        "id": "[已脱敏id]",
+        "experimentId": "[已脱敏experimentId]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "title": "[已脱敏title]",
+        "status": "[已脱敏status]",
+        "dataLatestDate": "[已脱敏dataLatestDate]",
+        "isLatest": true,
+        "fetchedAt": "[已脱敏fetchedAt]",
+        "experiment": {
+          "status": "[已脱敏status]",
+          "app": "[已脱敏app]",
+          "traffic": "[已脱敏traffic]",
+          "analysisRange": "[已脱敏analysisRange]"
+        },
+        "recycleExcerpt": "[已脱敏recycleExcerpt]",
+        "recycleTruncated": false,
+        "note": "[已脱敏note]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "profileId": "[已脱敏profileId]",
+        "feishuSync": {
+          "status": "[已脱敏status]",
+          "url": "[已脱敏url]"
+        }
+      },
+      {
+        "id": "[已脱敏id]",
+        "experimentId": "[已脱敏experimentId]",
+        "experimentUrl": "[已脱敏experimentUrl]",
+        "title": "[已脱敏title]",
+        "status": "[已脱敏status]",
+        "dataLatestDate": "[已脱敏dataLatestDate]",
+        "isLatest": true,
+        "fetchedAt": "[已脱敏fetchedAt]",
+        "experiment": {
+          "status": "[已脱敏status]",
+          "app": "[已脱敏app]",
+          "traffic": "[已脱敏traffic]",
+          "analysisRange": "[已脱敏analysisRange]"
+        },
+        "recycleExcerpt": "[已脱敏recycleExcerpt]",
+        "recycleTruncated": false,
+        "note": "[已脱敏note]",
+        "projectId": "[已脱敏projectId]",
+        "initiativeId": "[已脱敏initiativeId]",
+        "profileId": "[已脱敏profileId]"
+      }
+    ],
+    "recoveryFilter": {
+      "projectId": "[已脱敏projectId]"
+    },
+    "pendingDataRecoveryRequests": []
+  },
+  "sanitized": true
+}
