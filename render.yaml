@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: project-pusher-demo
+    runtime: docker
+    healthCheckPath: /api/health
+    envVars:
+      - key: DEMO_MODE
+        value: "true"
+      - key: HOST
+        value: 0.0.0.0

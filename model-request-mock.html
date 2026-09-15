@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Model Request Mock</title>
+  <link rel="stylesheet" href="./model-request-mock.css" />
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="eyebrow">OPENAI-COMPATIBLE PLAYGROUND</p>
+      <h1>模型请求 Mock</h1>
+      <p class="lead">用于核对不同模型和提示词会收到的请求。默认发送真实请求并返回模型输出；取消“发送真实请求”可仅发送模型请求体，不会调用外部模型。模型列表会从已配置的 OpenRouter 模型目录加载，也可手动填写任意模型 ID。</p>
+    </header>
+
+    <form id="requestForm" class="card">
+      <div class="grid">
+        <label>模型
+          <select id="modelPicker" aria-label="选择常用模型"><option value="">加载模型列表...</option></select>
+          <input id="model" name="model" list="modelOptions" required placeholder="也可手动填写任意模型 ID" />
+          <datalist id="modelOptions"></datalist>
+        </label>
+        <label class="switch-label"><input id="sendRealRequest" name="sendRealRequest" type="checkbox" checked /> <span>发送真实请求并返回模型输出</span></label>
+      </div>
+      <label>System prompt
+        <textarea id="systemPrompt" name="systemPrompt" rows="8" placeholder="定义模型角色、边界和输出风格...">你是一个严谨、简洁的助手。基于用户提供的信息回答；信息不足时明确说明。</textarea>
+      </label>
+      <label>User prompt
+        <textarea id="userPrompt" name="userPrompt" rows="8" required placeholder="输入要测试的用户问题...">请用三条要点说明这个请求的作用。</textarea>
+      </label>
+      <details>
+        <summary>高级参数</summary>
+        <div class="grid advanced-grid">
+          <label>temperature <input id="temperature" name="temperature" type="number" min="0" max="2" step="0.1" value="0.2" /></label>
+          <label>top_p <input id="topP" name="topP" type="number" min="0" max="1" step="0.05" value="1" /></label>
+          <label>max_tokens <input id="maxTokens" name="maxTokens" type="number" min="1" max="16384" step="1" value="1024" /></label>
+          <label>seed（可选）<input id="seed" name="seed" type="number" min="0" max="<REDACTED_ID>" step="1" /></label>
+        </div>
+        <section class="tool-selection" aria-label="选择发送给模型的工具">
+          <div class="tool-selection-head"><div><strong>输入工具范围</strong><small id="toolSelectionSummary">正在加载服务端工具...</small></div><div class="tool-selection-actions"><button type="button" class="text-button" id="selectDefaultTools">选择未受限工具</button><button type="button" class="text-button" id="clearTools">取消全选</button></div></div>
+          <div class="tool-selection-list" id="toolSelectionList"></div>
+          <p class="tool-schema-label">工具列表来自 <code>server.js</code>：未受限工具默认勾选；受限工具默认不勾选，但可按本次请求自行选择。模型返回的调用仅展示，不会执行。</p>
+        </section>
+      </details>
+      <div class="actions"><button id="submitButton" type="submit">发送模型请求</button><span id="status" role="status"></span></div>
+    </form>
+
+    <section class="result-grid" aria-live="polite">
+      <article class="card"><details class="request-details"><summary>请求体（点击展开）</summary><pre id="requestOutput">提交后显示将发送的 OpenAI-compatible JSON。</pre></details></article>
+      <article class="card"><h2>模型原始返回</h2><pre id="responseOutput">发送真实请求后在这里显示上游原始 JSON 返回。</pre></article>
+    </section>
+
+    <section class="tool-call-panel card" id="toolCallPanel" hidden>
+      <div class="tool-call-panel-head"><div><p class="eyebrow">MANUAL TOOL CALL</p><h2>模型工具调用</h2><p>最多展示前 3 个模型返回的 Tool Call。参数会自动填入，但不会自动执行；点击单项按钮后才会真实调用所选工具并显示结果。</p></div></div>
+      <div class="tool-call-list" id="toolCallList"></div>
+    </section>
+  </main>
+  <script src="./model-request-mock.js"></script>
+</body>
+</html>

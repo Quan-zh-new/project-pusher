@@ -1,0 +1,38 @@
+{
+  "name": "@quanhongzhang/project-pusher",
+  "private": false,
+  "version": "0.1.1",
+  "description": "Local project management workspace with persistent backend storage",
+  "bin": {
+    "project-pusher": "bin/project-pusher.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "scripts/",
+    "server.js",
+    "agent-runtime.js",
+    "automation-engine.js",
+    "skill-library.js",
+    "index.html",
+    "app.js",
+    "styles.css",
+    ".env.example",
+    "data/state.example.json"
+  ],
+  "scripts": {
+    "start": "node --use-env-proxy --env-file-if-exists=.env server.js",
+    "dev": "node --use-env-proxy --env-file-if-exists=.env server.js",
+    "doctor": "node --env-file-if-exists=.env scripts/doctor.js",
+    "demo": "node scripts/demo.js",
+    "test:e2e": "node test/server-realtime-progress-e2e.test.js && node test/server-manual-rerun-e2e.test.js && node test/server-concurrent-runs-e2e.test.js",
+    "test:model-request-mock": "node test/server-model-request-mock.test.js",
+    "test:model-request-mock:e2e": "node test/server-model-request-mock-e2e.test.js && node test/server-model-request-real-e2e.test.js",
+    "test": "node test/agent-runtime.test.js && node test/server-long-term-memory.test.js && node test/server-conversation-memory.test.js && node test/server-conversation-threads.test.js && node test/server-content-scope.test.js && node test/app-final-reply.test.js && node test/app-chat-display.test.js && node test/app-chat-image-submission.test.js && node test/app-project-overview.test.js && node test/app-cli-skills.test.js && node test/app-agent-progress.test.js && node test/app-manual-rerun.test.js && node test/server-partial-delivery.test.js && node test/server-artifacts.test.js && node test/server-feishu-tools.test.js && node test/skill-library.test.js && node test/server-cli-harness.test.js && node test/server-versioned-metrics.test.js && node test/server-context-budget.test.js && node test/server-context-compaction-e2e.test.js && node test/server-compact-tool-results.test.js && node test/server-terminal-delivery.test.js && node test/server-client-state-sync.test.js && node test/server-agent-knowledge-recovery.test.js && node test/server-state-write.test.js && node test/server-model-runtime.test.js && node test/server-manual-rerun.test.js && node test/server-web-page-reader.test.js && node test/server-model-routing.test.js && node test/server-model-request-mock.test.js && node test/server-history-tool-flow.test.js && node test/server-tool-guidance.test.js && node test/server-agent-loop-audit.test.js && node test/automation-engine.test.js && node test/app-automation.test.js && node test/server-automation-e2e.test.js && node test/server-concurrent-runs-e2e.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,15 @@
+# Local credentials and runtime state
+.env
+data/state.json
+data/assets/
+data/demo-state.json
+
+# User-provided extensions and local release artifacts
+skills/
+*.tgz
+
+# Local CLI environments
+.venv-libra-cli/
+
+# OS/editor files
+.DS_Store
